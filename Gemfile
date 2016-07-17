@@ -26,6 +26,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
+gem 'angularjs-rails'
+gem 'angular-ui-bootstrap-rails' #for bootstrap UI
+# Gemfile
+source 'https://rails-assets.org' do
+  gem 'rails-assets-angular-ui-grid'
+  gem 'rails-assets-restangular'
+  # Additional rails-assets gems go here...
+end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
